@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'CustomFontOne';
+  src: url('/assets/fonts/amatic_sc_bold-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'CustomFontTwo';
+  src: url('/assets/fonts/charmonman_bold-webfont.woff') format('woff');
+}
+
+body {
+  color: white;
+  font-family: 'CustomFontTwo';
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.mission {
+  background: #3f6944;
+}
+
+.text-section {
+  padding: 6em;
+
+}
+
+@media screen and (min-width: 768px) {
+  .text-section {
+    padding: 6em;
+
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .title-row h1 {
+    margin-top: 50%;
+  }
+}
+
+.card-green {
+  background-color: #426f47;
+  color: white;
+  border-color: white;
+}
+
+.card.card-accent {
+  border-color: #F3E798;
+  background-color: black;
+}
+
+.about {
+  padding: 5em;
+}
+
+@media screen and (min-width: 1024px) {
+  .about-title {
+    margin-top: 50%;
+  }
+}
+
+.about .card img {
+  height: 500px;
+  object-fit: cover;
+}
+.about .card {
+  color: black;
+}
+.upcoming-events {
+  background-color: black;
+}
