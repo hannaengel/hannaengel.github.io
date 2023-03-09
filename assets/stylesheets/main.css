@@ -10,7 +10,6 @@
 
 body {
   color: white;
-  font-family: 'CustomFontTwo';
 }
 
 .logo {
@@ -19,6 +18,7 @@ body {
 
 .mission {
   background: #3f6944;
+  font-family: 'CustomFontTwo';
 }
 
 .text-section {
