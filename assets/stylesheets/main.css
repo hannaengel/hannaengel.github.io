@@ -1,0 +1,47 @@
+.mask {
+  background-image: linear-gradient(70deg,#283d4b 0%,rgba(128,103,79,0.5) 100%),url("../images/background.jpeg")!important;
+}
+.spacer {
+  height: 8em;
+}
+.overflow-hidden {
+  overflow: hidden;
+ }
+
+.drop-in {
+  animation: drop-in 1s ease 200ms backwards;
+ }
+
+ .drop-in-2 {
+  animation: drop-in 1200ms ease 500ms backwards;
+ }
+
+ @keyframes drop-in {
+  from {
+   opacity: 0;
+   transform: translateY(-100px);
+  }
+  to {
+   opacity: 1;
+   transform: translate(0px);
+  }
+ }
+
+.bg-smoke {
+  background-color: #dddbdb;
+}
+
+.angled {
+  clip-path: polygon(0% 0, 100% 0%, 100% 79%, 0% 100%);
+}
+
+.fade-in{ animation: fadeIn 2s; }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+   }
+   to {
+    opacity: 1;
+
+   }
+}
